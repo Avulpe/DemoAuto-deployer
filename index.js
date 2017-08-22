@@ -5,6 +5,6 @@
  * @param {Object} res Cloud Function response context.
  */
 
-exports.helloHttp2 = function helloHttp2 (req, res) {
+exports.helloHttp = function helloHttp (req, res) {
   res.send(`Hello ${req.body.name || 'World'}!\n`);
 };
