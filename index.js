@@ -6,5 +6,5 @@
  */
 
 exports.helloHttp2 = function helloHttp2 (req, res) {
-  res.send(`Hello ${req.body.name || 'World'}! :-P \n`);
+  res.send(`Hello ${req.body.name || 'World'}! :-P`);
 };
